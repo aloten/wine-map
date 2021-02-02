@@ -1,11 +1,13 @@
-Summary:
+#Summary
 Create a database of wine/spirit collection by scraping the web for each bottle and extracting information. Then produce an interactive Bokeh application that geographically maps data from the wine database to analyze location, price, ratings...etc., by producer.
 
 To see the resulting wine map, download the html file titled 'winemap', which contains an interactive Bokeh application that will open up in your browser. Once the application opens, click the zoom tool on the right hand side to activate the zoom wheel, so you can zoom in to greater detail. You can also click and drag to move the map and hover over the circles for data.
 
+There are two conda environments used, one for each python script
 
 
-Steps of the two programs:
+
+# Steps of the two programs:
 
 # Prep
 Create an interactive bokeh application that geographically maps data from a wine collection (organized by producer) to analyze location, price, ratings...etc., of the wine collection. A circle corresponds to the producer/vineyard.
